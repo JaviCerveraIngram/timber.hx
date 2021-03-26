@@ -1,0 +1,6 @@
+.temp
+_build
+_report
+doc
+coverage.json
+lcov.info

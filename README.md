@@ -1,2 +1,3 @@
-# timber.hx
-A logging library for Haxe
+# ![Timber](logo.png) Timber
+
+A logging library for Haxe.
