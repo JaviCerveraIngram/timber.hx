@@ -1,6 +1,9 @@
 import massive.munit.TestSuite;
 
-import ExampleTest;
+import LoggerTest;
+import PlainLoggerFormatterTest;
+import LoggerConfigTest;
+import FileLoggerWriterTest;
 
 /**
  * Auto generated Test Suite for MassiveUnit.
@@ -12,6 +15,9 @@ class TestSuite extends massive.munit.TestSuite
 	{
 		super();
 
-		add(ExampleTest);
+		add(LoggerTest);
+		add(PlainLoggerFormatterTest);
+		add(LoggerConfigTest);
+		add(FileLoggerWriterTest);
 	}
 }
