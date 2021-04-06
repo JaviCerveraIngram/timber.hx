@@ -1,25 +1,25 @@
 ## Flash 9+
--main TestMain
--lib munit
--lib hamcrest
--cp test
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp test
 
--cp test
--swf-version 11
--swf _build/as3_test.swf
+#-cp test
+#-swf-version 11
+#-swf _build/as3_test.swf
 
 ## JavaScript
---next
--main TestMain
--lib munit
--lib hamcrest
--cp test
+#--next
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp test
 
--cp test
--js _build/js_test.js
+#-cp test
+#-js _build/js_test.js
 
 ## Neko
---next
+#--next
 -main TestMain
 -lib munit
 -lib hamcrest
@@ -92,21 +92,21 @@
 -js _build/js_test.js
 
 ## HashLink
---next
--main TestMain
--lib munit
--lib hamcrest
--cp test
+#--next
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp test
 
--cp test
--hl _build/hl_test.hl
+#-cp test
+#-hl _build/hl_test.hl
 
 ## LUA
---next
--main TestMain
--lib munit
--lib hamcrest
--cp test
+#--next
+#-main TestMain
+#-lib munit
+#-lib hamcrest
+#-cp test
 
--cp test
--lua _build/lua_test.lua
+#-cp test
+#-lua _build/lua_test.lua
