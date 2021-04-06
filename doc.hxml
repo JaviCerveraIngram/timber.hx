@@ -1,0 +1,5 @@
+--macro include('timber')
+-dce no
+-lib dox
+-xml doc/doc.xml
+-cmd haxelib run dox -i doc -o doc -in "^timber" --toplevel-package timber --title "Timber Documentation" -D version $(cat VERSION) -D website "https://www.cloudblue.com" -D source-path "https://github.com/JaviCerveraIngram/timber.hx/tree/main" -D description "A logging library for Haxe."
