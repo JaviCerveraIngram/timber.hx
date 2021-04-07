@@ -1,0 +1,9 @@
+{
+    "name": "timber",
+    "version": "0.0.0",
+    "url": "https://github.com/JaviCerveraIngram/timber.hx",
+    "tags": ["log", "logging", "logs"],
+    "license": "Apache",
+    "contributors": ["JaviCerveraIngram"],
+    "releasenote": ""
+}
