@@ -61,8 +61,8 @@ class LoggerTest {
 		logger.write(Logger.LEVEL_DEBUG, "Debug");
 		logger.write(Logger.LEVEL_ERROR, "Error");
 		Assert.areEqual(2, writer.getLines().length);
-		Assert.areEqual(formatter.formatLine(Logger.LEVEL_INFO, "Info"), writer.getLines()[0]);
-		Assert.areEqual(formatter.formatLine(Logger.LEVEL_ERROR, "Error"), writer.getLines()[1]);
+		Assert.areEqual(formatter.formatLine(Logger.LEVEL_INFO, "Info").substr(19), writer.getLines()[0].substr(19));
+		Assert.areEqual(formatter.formatLine(Logger.LEVEL_ERROR, "Error").substr(19), writer.getLines()[1].substr(19));
 	}
 }
 
