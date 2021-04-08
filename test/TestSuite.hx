@@ -11,13 +11,13 @@ import FileLoggerWriterTest;
  */
 class TestSuite extends massive.munit.TestSuite
 {
-	public function new()
-	{
-		super();
+    public function new()
+    {
+        super();
 
-		add(LoggerTest);
-		add(PlainLoggerFormatterTest);
-		add(LoggerConfigTest);
-		add(FileLoggerWriterTest);
-	}
+        add(LoggerTest);
+        add(PlainLoggerFormatterTest);
+        add(LoggerConfigTest);
+        add(FileLoggerWriterTest);
+    }
 }
